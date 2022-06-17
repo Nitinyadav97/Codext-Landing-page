@@ -1,38 +1,262 @@
 .App {
   text-align: center;
+  height: 100vh;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hmain{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin:5vw 10vw;
+ 
+}
+
+.htext{
+  width: 20vw;
+  text-align: left;
+  margin: 10vh 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mstext{
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeimg{
+  width: 50vw;
+  height: 70vh;
+  margin-left: 10vw;
+}
+
+.logoimg{
+  height: 10vh;
+}
+
+.butn{
+  background-color: #3e9cfe;
+  color: white;
+  border: 2px solid #3e9aff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.butn:hover{
+  background-color: #4848ca;
+}
+#home{
+  background-image: url("./homebg.jpg");
+  height: 100vh;
+}
+
+.hmain2{
+  display: flex;
+  /* margin-top: 10vh; */
+  margin-right: 10vw;
+  height: 100vh;
+  padding-top: 12vh;
+  /* align-items: flex-end; */
+}
+
+.homeimg2{
+  height: 90vh;
+}
+
+.cont2{
+  text-align: left;
+  padding-top: 10vh;
+  padding-left: 5vw;
+}
+
+.arcontainer{
+  display: flex;
+}
+
+#services{
+  margin: 10vh;
+  height: 100vh;
+  padding-top: 10vh;
+
+}
+.srvmain{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.srvbox{
+  
+  height: 50vh;
+  margin-left: 5vw;
+  
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 2px;
+  
+}
+
+.srvbox:hover {
+  background-color: #3333c2;
+  color: aliceblue;
+}
+
+.b1image{
+  border-radius: 0px 50px;
+}
+
+#pricing{
+  padding-top: 2vh;
+}
+.prcmain{
+  display: flex;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+
+.prcbox{
+  padding: 4vw;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  height: 70vh;
+}
+
+.line{
+  border: 1px solid red;
+  width: 15vw;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.sline{
+  display: flex;
+  align-items: center;
+}
+
+.prcbox:hover{
+  
+  background: linear-gradient(to bottom, blue 0%, blue 5%, white 40%, white 100%); 
+}
+.texthover:hover {color: aliceblue}
+
+.revmain{
+  display: flex;
+  justify-content: space-evenly;
+  height: 60vh ;
+  
+  
+}
+.revbox{
+  padding: 2vw;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  height: 50vh;
+  width: 30vw;
+}
+
+.revbox:hover{
+  border-bottom: 5px  solid rgb(162, 90, 229);
+  border-right: 5px  solid rgb(162, 90, 229);
+  
+}
+
+.qmimg{
+  height: 5vh;
+}
+.c1{
+  display: flex;
+}
+.c2{
+  display: flex;
+  align-items: center;
+    justify-content: space-around;
+}
+.ps{
+  height: 15vh;
+  border-radius: 50%;
+}
+
+.blgmain{
+  display: flex;
+  padding: 5vh 8vw;
+  justify-content: space-between;
+}
+
+.blgbox{
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  height: 80vh;
+  width: 40vw;
+}
+
+.blgbox:hover{
+  border-bottom: 3px  solid rgb(162, 90, 229);
+  border-right: 3px  solid rgb(162, 90, 229);
+}
+
+.blgimage{
+  height: 37vh;
+  width: 40vw;
+  border-radius: 6px;
+}
+
+.blgboxtxt{
+  padding-left: 3vw;
+  text-align: left;
+}
+
+footer{
+  background: #000;
+}
+.fmain{
+ 
+  height: 60vh;
+  padding: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly ;
+}
+
+.fc1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30vw;
+}
+.fc1text{
+  text-align: left;
+  color: aliceblue;
+}
+
+.iconsimg{
+  height: 2vh;
+}
+
+.ficons{
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+}
+
+.fc2{
+  color: aliceblue;
+  text-align: left;
+}
+.fc3{
+  color: aliceblue;
+  text-align: left;
+  height: 35vh;
+}
+
+.emailbox{
+  display: flex;
+}
+
+input{
+  background-color: #000;
+}
+
+.copyrighttxt{
+  color: aliceblue;
 }
